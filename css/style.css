@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Jeju Myeongjo', serif;
+	height: 100%;
+	margin: 10px auto;
+	padding: 0;
+	max-width: 480px;
+}
+img {
+	width: 100%;
+}
+.host_name {
+	font-size: 32pt;
+}
+h1 {
+	text-align:center;
+	color:#444;
+	line-height: 150%;
+}
+.division_line {
+	margin: 0 auto;
+	height:1px;
+	width:80%;
+	background-color:#666;
+}
