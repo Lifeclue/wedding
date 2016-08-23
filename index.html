@@ -27,7 +27,7 @@
           } while(imageIndexArray.indexOf(index) > -1);
           imageIndexArray.push(index);
         }
-        console.log(imageIndexArray);
+        
         for (i in imageIndexArray) {
           $("#images").append("<img src='images/" + imageIndexArray[i] + ".jpg' />");
         }
