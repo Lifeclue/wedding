@@ -10,9 +10,14 @@ body {
 	margin: 10px auto;
 	padding: 0;
 	max-width: 480px;
+	text-align:center;
 }
 img {
 	width: 100%;
+	margin-bottom: 10px;
+}
+.images_box {
+	padding: 10px;
 }
 .host_name {
 	font-size: 32pt;
