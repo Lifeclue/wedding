@@ -13,24 +13,16 @@
     <meta name="twitter:site" content="@lifeclue" />
     <meta name="twitter:image:src" content="https://lifeclue.github.io/wedding/images/og.jpg">
     <link rel="icon" type="image/x-icon" href="https://lifeclue.github.io/wedding/favicon.ico" />
-    <link type="text/css" href="css/style.css" media="all" rel="stylesheet">
+    <link type="text/css" href="style/style.css" media="all" rel="stylesheet">
     <title>빛나, 팔복 결혼합니다</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
       $(function() {
-        var imageIndexArray = [];
         var limit = 13;
-        for (var i = 1; i <= limit; i++) {
-          var index = 0;
-          do {
-            index = Math.floor(Math.random() * 100) % limit + 1;
-          } while(imageIndexArray.indexOf(index) > -1);
-          imageIndexArray.push(index);
-        }
         
-        for (i in imageIndexArray) {
-          $("#images").append("<img src='images/" + imageIndexArray[i] + ".jpg' />");
+        for (var i = 1; i <= limit; i++) {
+          $("#images").append("<img src='images/" + i + ".jpg' />");
         }
       });
     </script>
@@ -40,14 +32,14 @@
     <img src="images/poem.png" border="0" alter="예쁜 예감이 들었다. 우리는 언제나 손을 잡고 있게 될 것이다. 이이체의 시 '연인' 중에서"/>
     <div class="division_line" style="margin-bottom: 50px;"></div>
     <h1 class="welcome_ment"><span class="host_name" style="">빛나</span>와 <span class="host_name" style="">팔복</span>을 사랑하는<br>여러분 모두를 초대합니다.</h1>
-    <p>웨딩 헤너스 7층 씨엘로 오후 2시</p>
+    <button class="button" onclick="location.href='#map_anchor'"><img src="images/navigate.png" border="0" class="icon_navigate" /> <span>웨딩 헤너스(나윤웨딩홀) 7층 씨엘로 오후 2시</span></button>
     <div class="division_line" style="margin:50px auto;"></div>
     <!-- Images -->
     <div id="images" class="images_box"></div>
 
-    <div class="division_line" style="margin:30px auto;"></div>
+    <div id="map_anchor" class="division_line" style="margin:30px auto;"></div>
     <h1> 찾아오시는 길 </h1>
-    <div>회기역 2번 출구 웨딩 헤너스 7층 씨엘로 오후 2시</div>
+    <div>회기역 2번 출구 웨딩 헤너스(나윤웨딩홀) 7층 씨엘로 오후 2시</div>
     <!--
       * Daum 지도 - 약도서비스
       * 한 페이지 내에 약도를 2개 이상 넣을 경우에는

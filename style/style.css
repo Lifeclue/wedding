@@ -11,10 +11,24 @@ body {
 	padding: 0;
 	max-width: 480px;
 	text-align:center;
+	position: relative;
 }
 img {
 	width: 100%;
 	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+}
+.button {
+	background-color: white;
+	border: 1px solid #999;
+	padding: 15px;
+	cursor: pointer;
 }
 .images_box {
 	padding: 10px;
@@ -31,5 +45,21 @@ h1 {
 	margin: 0 auto;
 	height:1px;
 	width:80%;
-	background-color:#666;
+	background-color:#ccc;
+}
+.welcome_ment {
+	color: #555;
+}
+.map_button {
+	position:fixed;
+	bottom: 0;
+	right: 0;
+}
+.icon {
+	width: initial;
+}
+.icon_navigate {
+	width: 32px;
+	margin: 0;
+	vertical-align: middle;
 }
