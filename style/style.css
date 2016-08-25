@@ -29,6 +29,7 @@ a:hover {
 	border: 1px solid #999;
 	padding: 15px;
 	cursor: pointer;
+	font-family: inherit;
 }
 .images_box {
 	padding: 10px;
