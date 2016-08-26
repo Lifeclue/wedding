@@ -34,9 +34,6 @@ a:hover {
 .images_box {
 	padding: 10px;
 }
-.host_name {
-	font-size: 32pt;
-}
 h1 {
 	text-align:center;
 	color:#444;
@@ -50,6 +47,15 @@ h1 {
 }
 .welcome_ment {
 	color: #555;
+	font-size: 1.6em;
+	font-height: 150%;
+}
+.host_name {
+	font-size: 1.2em;
+}
+.textbox {
+	padding: 0 10px;
+	line-height: 150%;
 }
 .map_button {
 	position:fixed;
